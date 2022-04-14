@@ -1,0 +1,14 @@
+{
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "jsonc"
+    ],
+}
