@@ -1,0 +1,52 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{FMP{\etalchar{+}}20}
+
+\bibitem[7485215]{7485215}
+Igal Bilik, Oded Bialer, Shahar Villeval, Hasan Sharifi, Keerti Kona, Marcus
+  Pan, Dave Persechini, Marcel Musni, and Kevin Geary.
+\newblock Automotive mimo radar for urban environments.
+\newblock In {\em 2016 IEEE Radar Conference (RadarConf)}, pages 1--6, 2016.
+\newblock \begin{quote} {\bf Abstract:} abstract \end{quote}
+
+\bibitem[AuthorPaperNum]{AuthorPaperNum}
+Authors.
+\newblock {Paper name}.
+\newblock {\em Journal Name}, volume(page number):page start -- page end, month
+  year.
+\newblock \begin{quote} {\bf Abstract:} abstract \end{quote}
+
+\bibitem[bilik2019rise]{bilik2019rise}
+Igal Bilik, Oren Longman, Shahar Villeval, and Joseph Tabrikian.
+\newblock The rise of radar for autonomous vehicles: Signal processing
+  solutions and future research directions.
+\newblock {\em IEEE signal processing Magazine}, 36(5):20--31, 2019.
+\newblock \begin{quote} {\bf Abstract:} Survey; radar for autonomous vehicles
+  transforms from detection to imaging (range-doppler-azimuth-elevation).
+  operate in variety of target size and scenes, large DR with multipath and
+  resolution (affected by angle-dependent clutter). MIMO enables large FOV with
+  angular resolution for DOA estimation, noise suppression in 4d by 4d fft and
+  filtering and clustering. Cognitive radar; adaptive feedback between
+  transmitter and reciever (based on previous observations in all 4d domains).
+  MIMO low angular resolution due to antenna aperture is solved by super
+  resolution. Targets are multiple detections - need of clustering the
+  pointcloud, Ml is a good candidate. \end{quote}
+
+\bibitem[fracastoro2020deep]{fracastoro2020deep}
+Giulia Fracastoro, Enrico Magli, Giovanni Poggi, Giuseppe Scarpa, Diego
+  Valsesia, and Luisa Verdoliva.
+\newblock Deep learning methods for synthetic aperture radar image despeckling:
+  An overview of trends and perspectives.
+\newblock {\em arXiv preprint arXiv:2012.05508}, 2020.
+\newblock \begin{quote} {\bf Abstract:} Survey; deep learning SAR radar. Why ml
+  is a promising method in SAR radar signal processing; present the problem of
+  despeckling in images and why SUPERVISED MODELS are good candidates, provide
+  model comparison from different papers with code and data URL. \end{quote}
+
+\bibitem[mason2017deep]{mason2017deep}
+Eric Mason, Bariscan Yonel, and Birsen Yazici.
+\newblock Deep learning for radar.
+\newblock In {\em 2017 IEEE Radar Conference (RadarConf)}, pages 1703--1708.
+  IEEE, 2017.
+\newblock \begin{quote} {\bf Abstract:} Survey; \end{quote}
+
+\end{thebibliography}
