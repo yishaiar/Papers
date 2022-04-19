@@ -7,8 +7,7 @@
             "label": "compile_upload_full",
             "type": "shell",
            
-           "command": "lualatex master; bibtex master; lualatex master; lualatex master;./master.pdf;lualatex Presentation; bibtex Presentation; ./Presentation.pdf;",
-            //"command": "lualatex master; bibtex master; ./master.pdf; lualatex master; lualatex master; git add --all; git commit --all -m 'auto';git push --all --force",
+           "command": "lualatex master; bibtex master; lualatex master; lualatex master;./master.pdf;",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -26,29 +25,24 @@
             },
             "problemMatcher": []
         },
-        {
-            "label": "clear_all_aux",
-            "type": "shell",
-            "command": "del *.aux; del *.log; del *.bbl; del *.log; del *.toc; del *.lof; del *.blg; del *.out; del *.nav; del *.snm;",
-            "problemMatcher": []
-        },
-        {
-            "label": "compile current chapter",
-            "type": "shell",
-            
-            "command": "lualatex chapter; bibtex chapter; ./chapter.pdf; lualatex chapter; lualatex chapter;",
-            "problemMatcher": []
-        }
+        
+        
 
         {
             "label": "git-pull_build ",
             "type": "shell",
-            //"command": "lualatex master; bibtex master; ./master.pdf; lualatex master; lualatex master;lualatex chapter; bibtex chapter; ./chapter.pdf",
-            "command": "git pull -f; lualatex Presentation; bibtex Presentation; ./Presentation.pdf; ",
+            "command": "git pull -f; llualatex master; bibtex master; lualatex master; lualatex master;./master.pdf; ",
             
             "runOptions": {
                 "runOn": "folderOpen"
             },
+            "problemMatcher": []
+        },
+
+        {
+            "label": "clear_all_aux",
+            "type": "shell",
+            "command": "del *.aux; del *.log; del *.bbl; del *.log; del *.toc; del *.lof; del *.blg; del *.out; del *.nav; del *.snm;",
             "problemMatcher": []
         },
     ]

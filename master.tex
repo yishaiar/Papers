@@ -1,44 +1,10 @@
-\documentclass{book}
-\providecommand{\main}{.} 
-\usepackage{\main/UofRdissertation}
-
+\documentclass{article}
+\bibliographystyle{abstract}
+\usepackage{url} % doesn't get used since "abstract" bib style doesn't show contents of 'url' fields
+\usepackage[english]{babel}
 
 \begin{document}
-\frontmatter
-
-\doublespacing
-\pagestyle{uofrthesis}
-\subfile{\main/frontmatter/title}
-%\subfile{\main/frontmatter/dedication}
-
-\singlespacing
-
-\tableofcontents
-\addtocontents{toc}{\vspace{-1.5cm}}
-\begin{spacing}{1.5}
-
-%\subfile{\main/frontmatter/biography}
-\subfile{\main/frontmatter/acknowledgements}
-%\subfile{\main/frontmatter/abstract}
-%\subfile{\main/frontmatter/contributors_and_funding}
-\cleardoublepage
-%\addcontentsline{toc}{chapter}{\listfigurename}
-%\listoffigures
-\mainmatter
-
-%chapters:
-\subfile{\main/chapters/1 - introduction}
-\subfile{\main/chapters/2 - theoretical background}
-\subfile{\main/chapters/3 - thesis aims}
-\subfile{\main/chapters/4 - methods and results}
-\subfile{\main/chapters/5 - summary and conclusion}
-\end{spacing}
-
-
-
-\cleardoublepage
-
-\addcontentsline{toc}{chapter}{Bibliography}
 \nocite{*}
 \bibliography{citations}
+
 \end{document}
